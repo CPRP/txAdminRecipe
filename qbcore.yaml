@@ -147,11 +147,6 @@ tasks:
     dest: ./resources/[qb]/qb-vehiclesales
     ref: main
     src: https://github.com/qbcore-framework/qb-vehiclesales
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-vehicleshop
-    ref: main
-    src: https://github.com/qbcore-framework/qb-vehicleshop
     
   - action: download_github
     dest: ./resources/[qb]/qb-prison
@@ -207,24 +202,9 @@ tasks:
     src: https://github.com/qbcore-framework/qb-policejob
 
   - action: download_github
-    dest: ./resources/[qb]/qb-traphouse
-    ref: main
-    src: https://github.com/qbcore-framework/qb-traphouse
-
-  - action: download_github
     dest: ./resources/[qb]/qb-apartments
     ref: main
     src: https://github.com/qbcore-framework/qb-apartments
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-vehiclekeys
-    ref: main
-    src: https://github.com/qbcore-framework/qb-vehiclekeys
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-vineyard
-    ref: main
-    src: https://github.com/qbcore-framework/qb-vineyard
 
   - action: download_github
     dest: ./resources/[qb]/qb-weapons
@@ -476,6 +456,31 @@ tasks:
     dest: ./resources/[qb]/qb-towjob
     ref: main
     src: https://github.com/CPRP/qb-towjob
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-traphouse
+    ref: main
+    src: https://github.com/CPRP/qb-traphouse
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-truckerjob
+    ref: main
+    src: https://github.com/CPRP/qb-truckerjob
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-vehiclekeys
+    ref: main
+    src: https://github.com/CPRP/qb-vehiclekeys
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-vehicleshop
+    ref: main
+    src: https://github.com/CPRP/qb-vehicleshop
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-vineyard
+    ref: main
+    src: https://github.com/CPRP/qb-vineyard
 
   # Clean up
   - action: remove_path
