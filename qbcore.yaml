@@ -139,11 +139,6 @@ tasks:
     dest: ./resources/[qb]/qb-multicharacter
     ref: main
     src: https://github.com/qbcore-framework/qb-multicharacter
-    
-  - action: download_github
-    dest: ./resources/[qb]/qb-target
-    ref: main
-    src: https://github.com/BerkieBb/qb-target
 
   - action: waste_time # prevent github throttling
     seconds: 10
@@ -202,11 +197,6 @@ tasks:
     seconds: 10
 
   - action: download_github
-    dest: ./resources/[qb]/qb-radialmenu
-    ref: main
-    src: https://github.com/qbcore-framework/qb-radialmenu
-
-  - action: download_github
     dest: ./resources/[qb]/qb-weathersync
     ref: main
     src: https://github.com/qbcore-framework/qb-weathersync
@@ -232,11 +222,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-vehiclekeys
 
   - action: download_github
-    dest: ./resources/[qb]/qb-phone
-    ref: main
-    src: https://github.com/qbcore-framework/qb-phone
-
-  - action: download_github
     dest: ./resources/[qb]/qb-vineyard
     ref: main
     src: https://github.com/qbcore-framework/qb-vineyard
@@ -257,34 +242,14 @@ tasks:
     src: https://github.com/qbcore-framework/qb-tunerchip
 
   - action: download_github
-    dest: ./resources/[qb]/qb-towjob
-    ref: main
-    src: https://github.com/qbcore-framework/qb-towjob
-
-  - action: download_github
     dest: ./resources/[qb]/qb-streetraces
     ref: main
     src: https://github.com/qbcore-framework/qb-streetraces
 
   - action: download_github
-    dest: ./resources/[qb]/qb-storerobbery
-    ref: main
-    src: https://github.com/qbcore-framework/qb-storerobbery
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-spawn
-    ref: main
-    src: https://github.com/qbcore-framework/qb-spawn
-
-  - action: download_github
     dest: ./resources/[qb]/qb-skillbar
     ref: main
     src: https://github.com/qbcore-framework/qb-skillbar
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-smallresources
-    ref: main
-    src: https://github.com/qbcore-framework/qb-smallresources
 
   - action: download_github
     dest: ./resources/[qb]/qb-recyclejob
@@ -310,11 +275,6 @@ tasks:
     dest: ./resources/[qb]/qb-pawnshop
     ref: main
     src: https://github.com/qbcore-framework/qb-pawnshop
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-taxijob
-    ref: main
-    src: https://github.com/qbcore-framework/qb-taxijob
     
   - action: download_github
     dest: ./resources/[qb]/qb-busjob
@@ -368,11 +328,6 @@ tasks:
     dest: ./resources/[qb]/qb-garbagejob
     ref: main
     src: https://github.com/qbcore-framework/qb-garbagejob
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-shops
-    ref: main
-    src: https://github.com/qbcore-framework/qb-shops
 
   - action: download_github
     dest: ./resources/[qb]/qb-lockpick
@@ -467,6 +422,60 @@ tasks:
     dest: ./resources/[qb]/qb-newsjob
     ref: main
     src: https://github.com/CPRP/qb-newsjob
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-phone
+    ref: main
+    src: https://github.com/CPRP/qb-phone
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-policejob
+    ref: main
+    src: https://github.com/CPRP/qb-policejob
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-radialmenu
+    ref: main
+    src: https://github.com/CPRP/qb-radialmenu
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-shops
+    ref: main
+    src: https://github.com/CPRP/qb-shops
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-smallresources
+    ref: main
+    src: https://github.com/CPRP/qb-smallresources
+
+  # Modified Scripts
+  - action: waste_time # prevent github throttling (every 18)
+    seconds: 10
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-spawn
+    ref: main
+    src: https://github.com/CPRP/qb-spawn
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-storerobbery
+    ref: main
+    src: https://github.com/CPRP/qb-storerobbery
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-target
+    ref: main
+    src: https://github.com/CPRP/qb-target
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-taxijob
+    ref: main
+    src: https://github.com/CPRP/qb-taxijob
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-towjob
+    ref: main
+    src: https://github.com/CPRP/qb-towjob
 
   # Clean up
   - action: remove_path
