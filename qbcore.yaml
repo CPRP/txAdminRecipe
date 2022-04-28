@@ -157,11 +157,6 @@ tasks:
     dest: ./resources/[qb]/qb-vehicleshop
     ref: main
     src: https://github.com/qbcore-framework/qb-vehicleshop
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-houserobbery
-    ref: main
-    src: https://github.com/qbcore-framework/qb-houserobbery
     
   - action: download_github
     dest: ./resources/[qb]/qb-prison
@@ -177,11 +172,6 @@ tasks:
     dest: ./resources/[qb]/qb-hud
     ref: main
     src: https://github.com/qbcore-framework/qb-hud
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-management
-    ref: main
-    src: https://github.com/qbcore-framework/qb-management
 
   - action: download_github
     dest: ./resources/[qb]/qb-weed
@@ -202,11 +192,6 @@ tasks:
     dest: ./resources/[qb]/qb-houses
     ref: main
     src: https://github.com/qbcore-framework/qb-houses
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-garages
-    ref: main
-    src: https://github.com/qbcore-framework/qb-garages
 
   - action: download_github
     dest: ./resources/[qb]/qb-vehiclefailure
@@ -245,11 +230,6 @@ tasks:
     dest: ./resources/[qb]/qb-vehiclekeys
     ref: main
     src: https://github.com/qbcore-framework/qb-vehiclekeys
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-mechanicjob
-    ref: main
-    src: https://github.com/qbcore-framework/qb-mechanicjob
 
   - action: download_github
     dest: ./resources/[qb]/qb-phone
@@ -340,16 +320,6 @@ tasks:
     dest: ./resources/[qb]/qb-busjob
     ref: main
     src: https://github.com/qbcore-framework/qb-busjob
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-newsjob
-    ref: main
-    src: https://github.com/qbcore-framework/qb-newsjob
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-jewelery
-    ref: main
-    src: https://github.com/qbcore-framework/qb-jewelery
 
   - action: waste_time # prevent github throttling
     seconds: 10
@@ -467,6 +437,36 @@ tasks:
     dest: ./resources/[qb]/qb-drugs
     ref: main
     src: https://github.com/CPRP/qb-drugs
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-garages
+    ref: main
+    src: https://github.com/CPRP/qb-garages
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-houserobbery
+    ref: main
+    src: https://github.com/CPRP/qb-houserobbery
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-jewelery
+    ref: main
+    src: https://github.com/CPRP/qb-jewelery
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-management
+    ref: main
+    src: https://github.com/CPRP/qb-management
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-mechanicjob
+    ref: main
+    src: https://github.com/CPRP/qb-mechanicjob
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-newsjob
+    ref: main
+    src: https://github.com/CPRP/qb-newsjob
 
   # Clean up
   - action: remove_path
