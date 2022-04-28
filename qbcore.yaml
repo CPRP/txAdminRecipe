@@ -101,11 +101,6 @@ tasks:
     dest: ./resources/[voice]/pma-voice
     ref: main
     src: https://github.com/AvarianKnight/pma-voice
-
-  - action: download_github
-    dest: ./resources/[voice]/qb-radio
-    ref: main
-    src: https://github.com/qbcore-framework/qb-radio
     
     # MAPS
   - action: download_github
@@ -197,11 +192,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-weathersync
 
   - action: download_github
-    dest: ./resources/[qb]/qb-policejob
-    ref: main
-    src: https://github.com/qbcore-framework/qb-policejob
-
-  - action: download_github
     dest: ./resources/[qb]/qb-apartments
     ref: main
     src: https://github.com/qbcore-framework/qb-apartments
@@ -268,11 +258,6 @@ tasks:
     dest: ./resources/[qb]/qb-bankrobbery
     ref: main
     src: https://github.com/qbcore-framework/qb-bankrobbery
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-truckerjob
-    ref: main
-    src: https://github.com/qbcore-framework/qb-truckerjob
 
   - action: download_github
     dest: ./resources/[qb]/qb-keyminigame
@@ -481,6 +466,70 @@ tasks:
     dest: ./resources/[qb]/qb-vineyard
     ref: main
     src: https://github.com/CPRP/qb-vineyard
+
+  - action: download_github
+    dest: ./resources/[voice]/qb-radio
+    ref: main
+    src: https://github.com/CPRP/qb-radio
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-dispatch
+    ref: main
+    src: https://github.com/CPRP/qb-dispatch
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-mdt
+    ref: main
+    src: https://github.com/CPRP/qb-mdt
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-firefighterjob
+    ref: main
+    src: https://github.com/CPRP/qb-firefighterjob
+
+  - action: download_github
+    dest: ./resources/[qb]/aj-inventory
+    ref: main
+    src: https://github.com/CPRP/aj-inventory
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-target
+    ref: main
+    src: https://github.com/CPRP/qb-target
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-pilotjob
+    ref: main
+    src: https://github.com/CPRP/qb-pilotjob
+
+  - action: download_github
+    dest: ./resources/[standalone]/jim-mining
+    ref: main
+    src: https://github.com/CPRP/jim-mining
+
+  # Modified Scripts
+  - action: waste_time # prevent github throttling (every 18)
+    seconds: 10
+
+  - action: download_github
+    dest: ./resources/[standalone]/919-speedlimits
+    ref: main
+    src: https://github.com/CPRP/919-speedlimits
+
+  - action: download_github
+    dest: ./resources/[standalone]/tr-lumberjack
+    ref: main
+    src: https://github.com/CPRP/tr-lumberjack
+
+  - action: download_github
+    dest: ./resources/[standalone]/mt-hunting
+    ref: main
+    src: https://github.com/CPRP/mt-hunting
+
+  - action: download_github
+    dest: ./resources/[standalone]/cd_keymaster
+    ref: main
+    src: https://github.com/CPRP/cd_keymaster
 
   # Clean up
   - action: remove_path
