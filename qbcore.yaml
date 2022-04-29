@@ -530,6 +530,11 @@ tasks:
     dest: ./resources/[qb]/don-forklift
     ref: main
     src: https://github.com/CPRP/don-forklift
+    
+  - action: download_github
+    dest: ./resources/[qb]/qb-mailjob
+    ref: main
+    src: https://github.com/CPRP/qb-mailjob
 
   # Clean up
   - action: remove_path
