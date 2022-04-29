@@ -525,6 +525,11 @@ tasks:
     dest: ./resources/[qb]/qb-loading
     ref: main
     src: https://github.com/CPRP/qb-loading
+    
+  - action: download_github
+    dest: ./resources/[qb]/don-forklift
+    ref: main
+    src: https://github.com/CPRP/don-forklift
 
   # Clean up
   - action: remove_path
