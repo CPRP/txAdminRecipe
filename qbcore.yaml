@@ -250,11 +250,6 @@ tasks:
     seconds: 10
 
   - action: download_github
-    dest: ./resources/[qb]/qb-bankrobbery
-    ref: main
-    src: https://github.com/qbcore-framework/qb-bankrobbery
-
-  - action: download_github
     dest: ./resources/[qb]/qb-keyminigame
     ref: main
     src: https://github.com/qbcore-framework/qb-keyminigame
@@ -535,6 +530,11 @@ tasks:
     dest: ./resources/[qb]/qb-mailjob
     ref: main
     src: https://github.com/CPRP/qb-mailjob
+    
+  - action: download_github
+    dest: ./resources/[qb]/qb-bankrobbery
+    ref: main
+    src: https://github.com/CPRP/qb-bankrobbery
 
   # Clean up
   - action: remove_path
