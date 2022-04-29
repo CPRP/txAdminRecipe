@@ -313,11 +313,6 @@ tasks:
     dest: ./resources/[qb]/qb-input
     ref: main
     src: https://github.com/qbcore-framework/qb-input
-    
-  - action: download_github
-    dest: ./resources/[qb]/qb-loading
-    ref: main
-    src: https://github.com/qbcore-framework/qb-loading
 
   # Modified Scripts
   - action: waste_time # prevent github throttling (every 18)
@@ -530,6 +525,11 @@ tasks:
     dest: ./resources/[standalone]/cd_keymaster
     ref: main
     src: https://github.com/CPRP/cd_keymaster
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-loading
+    ref: main
+    src: https://github.com/CPRP/qb-loading
 
   # Clean up
   - action: remove_path
