@@ -408,11 +408,6 @@ tasks:
     src: https://github.com/CPRP/qb-storerobbery
 
   - action: download_github
-    dest: ./resources/[qb]/qb-target
-    ref: main
-    src: https://github.com/CPRP/qb-target
-
-  - action: download_github
     dest: ./resources/[qb]/qb-taxijob
     ref: main
     src: https://github.com/CPRP/qb-taxijob
