@@ -523,7 +523,7 @@ tasks:
     
   - action: download_github
     dest: ./resources/[qb]/qb-mailjob
-    ref: master
+    ref: main
     src: https://github.com/CPRP/qb-mailjob
     
   - action: download_github
