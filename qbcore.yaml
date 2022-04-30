@@ -525,6 +525,11 @@ tasks:
     dest: ./resources/[qb]/qb-hud
     ref: main
     src: https://github.com/CPRP/qb-hud
+    
+  - action: download_github
+    dest: ./resources/[qb]/qb-scooterrental
+    ref: main
+    src: https://github.com/CPRP/qb-scooterrental
 
   # Clean up
   - action: remove_path
