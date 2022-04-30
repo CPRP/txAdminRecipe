@@ -526,12 +526,12 @@ tasks:
     ref: main
     src: https://github.com/CPRP/qb-hud
     
- - action: download_github
+  - action: download_github
     dest: ./resources/[qb]/qb-rentals
     ref: main
     src: https://github.com/CPRP/qb-rentals
     
-- action: download_github
+  - action: download_github
     dest: ./resources/[qb]/qb-mailjob
     ref: main
     src: https://github.com/CPRP/qb-mailjob
