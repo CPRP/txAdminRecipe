@@ -477,11 +477,6 @@ tasks:
     ref: main
     src: https://github.com/CPRP/qb-pilotjob
 
-  - action: download_github
-    dest: ./resources/[standalone]/jim-mining
-    ref: main
-    src: https://github.com/CPRP/jim-mining
-
   # Modified Scripts
   - action: waste_time # prevent github throttling (every 18)
     seconds: 10
