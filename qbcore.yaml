@@ -487,11 +487,6 @@ tasks:
     src: https://github.com/CPRP/919-speedlimits
 
   - action: download_github
-    dest: ./resources/[standalone]/tr-lumberjack
-    ref: main
-    src: https://github.com/CPRP/tr-lumberjack
-
-  - action: download_github
     dest: ./resources/[standalone]/mt-hunting
     ref: main
     src: https://github.com/CPRP/mt-hunting
