@@ -545,6 +545,11 @@ tasks:
     dest: ./resources/[qb]/qb-djbooth
     ref: main
     src: https://github.com/CPRP/qb-djbooth
+    
+  - action: download_github
+    dest: ./resources/[qb]/qb-drawtext
+    ref: main
+    src: https://github.com/CPRP/qb-drawtext
 
   # Clean up
   - action: remove_path
