@@ -532,9 +532,14 @@ tasks:
     src: https://github.com/CPRP/jim-recycle
     
   - action: download_github
-    dest: ./resources/[qb]/QB-Cartheft
+    dest: ./resources/[qb]/qb-cartheft
     ref: main
     src: https://github.com/CPRP/QB-Cartheft
+    
+  - action: download_github
+    dest: ./resources/[qb]/qb-constructionjob
+    ref: main
+    src: https://github.com/CPRP/qb-constructionjob
 
   # Clean up
   - action: remove_path
