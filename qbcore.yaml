@@ -187,11 +187,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-apartments
 
   - action: download_github
-    dest: ./resources/[qb]/qb-weapons
-    ref: main
-    src: https://github.com/qbcore-framework/qb-weapons
-
-  - action: download_github
     dest: ./resources/[qb]/qb-scrapyard
     ref: main
     src: https://github.com/qbcore-framework/qb-scrapyard
@@ -566,10 +561,19 @@ tasks:
     ref: main
     src: https://github.com/CPRP/qb-lock
     
+  # Modified Scripts
+  - action: waste_time # prevent github throttling (every 18)
+    seconds: 10
+    
   - action: download_github
     dest: ./resources/[standalone]/apolo_moneywash
     ref: main
     src: https://github.com/CPRP/apolo_moneywash-QB
+    
+  - action: download_github
+    dest: ./resources/[qb]/qb-weapons
+    ref: main
+    src: https://github.com/CPRP/qb-weapons
 
   # Clean up
   - action: remove_path
