@@ -556,6 +556,11 @@ tasks:
     ref: main
     src: https://github.com/CPRP/qb-drivingschool
 
+  - action: download_github
+    dest: ./resources/[qb]/hashx_k9
+    ref: main
+    src: https://github.com/CPRP/hashx_k9
+
   # Clean up
   - action: remove_path
     path: ./tmp
