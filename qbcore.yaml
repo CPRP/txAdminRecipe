@@ -565,6 +565,11 @@ tasks:
     dest: ./resources/[qb]/qb-lock
     ref: main
     src: https://github.com/CPRP/qb-lock
+    
+  - action: download_github
+    dest: ./resources/[standalone]/apolo_moneywash
+    ref: main
+    src: https://github.com/CPRP/apolo_moneywash-QB
 
   # Clean up
   - action: remove_path
