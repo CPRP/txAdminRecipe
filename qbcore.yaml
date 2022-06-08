@@ -521,10 +521,15 @@ tasks:
     ref: main
     src: https://github.com/CPRP/qb-scooterrental
     
-   - action: download_github
+  - action: download_github
     dest: ./resources/[qb]/jim-payments
     ref: main
     src: https://github.com/CPRP/jim-payments
+    
+  - action: download_github
+    dest: ./resources/[qb]/jim-recycling
+    ref: main
+    src: https://github.com/CPRP/jim-recycle
 
   # Clean up
   - action: remove_path
