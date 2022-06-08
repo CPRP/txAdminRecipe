@@ -550,6 +550,11 @@ tasks:
     dest: ./resources/[qb]/qb-drawtext
     ref: main
     src: https://github.com/CPRP/qb-drawtext
+    
+  - action: download_github
+    dest: ./resources/[qb]/qb-drivingschool
+    ref: main
+    src: https://github.com/CPRP/qb-drivingschool
 
   # Clean up
   - action: remove_path
