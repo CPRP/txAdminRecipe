@@ -540,6 +540,11 @@ tasks:
     dest: ./resources/[qb]/qb-constructionjob
     ref: main
     src: https://github.com/CPRP/qb-constructionjob
+    
+  - action: download_github
+    dest: ./resources/[qb]/qb-djbooth
+    ref: main
+    src: https://github.com/CPRP/qb-djbooth
 
   # Clean up
   - action: remove_path
