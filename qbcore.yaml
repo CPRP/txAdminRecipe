@@ -530,6 +530,11 @@ tasks:
     dest: ./resources/[qb]/jim-recycling
     ref: main
     src: https://github.com/CPRP/jim-recycle
+    
+  - action: download_github
+    dest: ./resources/[qb]/QB-Cartheft
+    ref: main
+    src: https://github.com/CPRP/QB-Cartheft
 
   # Clean up
   - action: remove_path
