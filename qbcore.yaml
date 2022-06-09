@@ -576,7 +576,7 @@ tasks:
     src: https://github.com/CPRP/qb-weapons
     
   - action: download_github
-    dest: ./resources/[standalone]/ps-drugprocessing
+    dest: ./resources/[qb]/ps-drugprocessing
     ref: main
     src: https://github.com/CPRP/ps-drugprocessing
 
