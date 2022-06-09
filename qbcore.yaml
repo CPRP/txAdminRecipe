@@ -379,11 +379,6 @@ tasks:
     src: https://github.com/CPRP/qb-radialmenu
 
   - action: download_github
-    dest: ./resources/[qb]/qb-shops
-    ref: main
-    src: https://github.com/CPRP/qb-shops
-
-  - action: download_github
     dest: ./resources/[qb]/qb-smallresources
     ref: main
     src: https://github.com/CPRP/qb-smallresources
@@ -579,6 +574,11 @@ tasks:
     dest: ./resources/[qb]/ps-drugprocessing
     ref: main
     src: https://github.com/CPRP/ps-drugprocessing
+    
+  - action: download_github
+    dest: ./resources/[qb]/jim-shops
+    ref: main
+    src: https://github.com/CPRP/jim-shops
 
   # Clean up
   - action: remove_path
