@@ -82,11 +82,6 @@ tasks:
     src: https://github.com/qbcore-framework/connectqueue
 
   - action: download_github
-    dest: ./resources/[standalone]/dpemotes
-    ref: master
-    src: https://github.com/qbcore-framework/dpemotes
-
-  - action: download_github
     dest: ./resources/[standalone]/PolyZone
     ref: master
     src: https://github.com/qbcore-framework/PolyZone
@@ -584,6 +579,11 @@ tasks:
     dest: ./resources/[standalone]/3dme
     ref: main
     src: https://github.com/CPRP/3dme
+    
+  - action: download_github
+    dest: ./resources/[standalone]/dpemotes
+    ref: master
+    src: https://github.com/CPRP/dpemotes
 
   # Clean up
   - action: remove_path
