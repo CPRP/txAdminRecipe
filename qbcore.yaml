@@ -577,7 +577,7 @@ tasks:
     
   - action: download_github
     dest: ./resources/[standalone]/3dme
-    ref: main
+    ref: master
     src: https://github.com/CPRP/3dme
     
   - action: download_github
@@ -587,17 +587,17 @@ tasks:
     
   - action: download_github
     dest: ./resources/[casino]/doj-casino
-    ref: master
+    ref: main
     src: https://github.com/CPRP/doj-casino
     
   - action: download_github
     dest: ./resources/[casino]/textUi
-    ref: master
+    ref: main
     src: https://github.com/CPRP/textUi
     
   - action: download_github
     dest: ./resources/[casino]/casinoUi
-    ref: master
+    ref: main
     src: https://github.com/CPRP/casinoUi
 
   # Clean up
