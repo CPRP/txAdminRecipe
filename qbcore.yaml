@@ -584,6 +584,21 @@ tasks:
     dest: ./resources/[standalone]/dpemotes
     ref: master
     src: https://github.com/CPRP/dpemotes
+    
+  - action: download_github
+    dest: ./resources/[casino]/doj-casino
+    ref: master
+    src: https://github.com/CPRP/doj-casino
+    
+  - action: download_github
+    dest: ./resources/[casino]/textUi
+    ref: master
+    src: https://github.com/CPRP/textUi
+    
+  - action: download_github
+    dest: ./resources/[casino]/casinoUi
+    ref: master
+    src: https://github.com/CPRP/casinoUi
 
   # Clean up
   - action: remove_path
