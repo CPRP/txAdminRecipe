@@ -212,11 +212,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-diving
 
   - action: download_github
-    dest: ./resources/[qb]/qb-anticheat
-    ref: main
-    src: https://github.com/qbcore-framework/qb-anticheat
-
-  - action: download_github
     dest: ./resources/[qb]/qb-pawnshop
     ref: main
     src: https://github.com/qbcore-framework/qb-pawnshop
