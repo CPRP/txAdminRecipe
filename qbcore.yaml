@@ -423,14 +423,14 @@ tasks:
     src: https://github.com/CPRP/qb-radio
 
   - action: download_github
-    dest: ./resources/[qb]/qb-dispatch
+    dest: ./resources/[qb]/ps-dispatch
     ref: main
-    src: https://github.com/CPRP/qb-dispatch
+    src: https://github.com/CPRP/ps-dispatch
 
   - action: download_github
-    dest: ./resources/[qb]/qb-mdt
+    dest: ./resources/[qb]/ps-mdt
     ref: main
-    src: https://github.com/CPRP/qb-mdt
+    src: https://github.com/CPRP/ps-mdt
 
   - action: download_github
     dest: ./resources/[qb]/qb-firefighterjob
