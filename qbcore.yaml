@@ -245,11 +245,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-commandbinding
 
   - action: download_github
-    dest: ./resources/[qb]/qb-banking
-    ref: main
-    src: https://github.com/qbcore-framework/qb-banking
-
-  - action: download_github
     dest: ./resources/[qb]/qb-clothing
     ref: main
     src: https://github.com/qbcore-framework/qb-clothing
