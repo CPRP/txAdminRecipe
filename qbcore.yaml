@@ -594,6 +594,11 @@ tasks:
     dest: ./resources/[casino]/casinoUi
     ref: main
     src: https://github.com/CPRP/casinoUi
+    
+  - action: download_github
+    dest: ./resources/[standalone]/wk_wars2x
+    ref: master
+    src: https://github.com/CPRP/wk_wars2x
 
   # Clean up
   - action: remove_path
