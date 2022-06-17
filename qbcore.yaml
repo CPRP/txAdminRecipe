@@ -594,6 +594,11 @@ tasks:
     dest: ./resources/[qb]/jim-mining
     ref: main
     src: https://github.com/CPRP/jim-mining
+    
+  - action: download_github
+    dest: ./resources/[qb]/qb-prison
+    ref: main
+    src: https://github.com/CPRP/qb-prison
 
   # Clean up
   - action: remove_path
