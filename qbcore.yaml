@@ -589,6 +589,11 @@ tasks:
     dest: ./resources/[standalone]/wk_wars2x
     ref: master
     src: https://github.com/CPRP/wk_wars2x
+    
+  - action: download_github
+    dest: ./resources/[qb]/jim-mining
+    ref: main
+    src: https://github.com/CPRP/jim-mining
 
   # Clean up
   - action: remove_path
