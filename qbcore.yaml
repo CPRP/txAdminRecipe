@@ -423,11 +423,6 @@ tasks:
     src: https://github.com/CPRP/ps-mdt
 
   - action: download_github
-    dest: ./resources/[qb]/qb-firefighterjob
-    ref: main
-    src: https://github.com/CPRP/qb-firefighterjob
-
-  - action: download_github
     dest: ./resources/[qb]/aj-inventory
     ref: main
     src: https://github.com/CPRP/aj-inventory
