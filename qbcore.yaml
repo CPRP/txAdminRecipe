@@ -589,6 +589,11 @@ tasks:
     dest: ./resources/[standalone]/LegacyFuel
     ref: master
     src: https://github.com/CPRP/LegacyFuel
+    
+  - action: download_github
+    dest: ./resources/jim-consumables
+    ref: main
+    src: https://github.com/CPRP/jim-consumables
 
   # Clean up
   - action: remove_path
