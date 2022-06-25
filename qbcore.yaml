@@ -86,11 +86,6 @@ tasks:
     ref: master
     src: https://github.com/qbcore-framework/PolyZone
     
-  - action: download_github
-    dest: ./resources/[standalone]/LegacyFuel
-    ref: master
-    src: https://github.com/qbcore-framework/LegacyFuel
-    
     # VOICE
   - action: download_github
     dest: ./resources/[voice]/pma-voice
@@ -589,6 +584,11 @@ tasks:
     dest: ./resources/[qb]/qb-prison
     ref: main
     src: https://github.com/CPRP/qb-prison
+    
+  - action: download_github
+    dest: ./resources/[standalone]/LegacyFuel
+    ref: master
+    src: https://github.com/CPRP/LegacyFuel
 
   # Clean up
   - action: remove_path
