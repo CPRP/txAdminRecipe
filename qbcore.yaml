@@ -591,9 +591,9 @@ tasks:
     src: https://github.com/CPRP/LegacyFuel
     
   - action: download_github
-    dest: ./resources/jim-consumables
+    dest: ./resources/[weapons]/Custom-Weapons
     ref: main
-    src: https://github.com/CPRP/jim-consumables
+    src: https://github.com/CPRP/Custom-Weapons
 
   # Clean up
   - action: remove_path
