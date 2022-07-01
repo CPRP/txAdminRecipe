@@ -398,11 +398,6 @@ tasks:
     src: https://github.com/CPRP/qb-vehicleshop
 
   - action: download_github
-    dest: ./resources/[qb]/qb-vineyard
-    ref: main
-    src: https://github.com/CPRP/qb-vineyard
-
-  - action: download_github
     dest: ./resources/[voice]/qb-radio
     ref: main
     src: https://github.com/CPRP/qb-radio
@@ -427,11 +422,6 @@ tasks:
     ref: main
     src: https://github.com/CPRP/qb-target
 
-  - action: download_github
-    dest: ./resources/[qb]/qb-pilotjob
-    ref: main
-    src: https://github.com/CPRP/qb-pilotjob
-
   # Modified Scripts
   - action: waste_time # prevent github throttling (every 18)
     seconds: 10
@@ -440,11 +430,6 @@ tasks:
     dest: ./resources/[standalone]/919-speedlimits
     ref: main
     src: https://github.com/CPRP/919-speedlimits
-
-  - action: download_github
-    dest: ./resources/[standalone]/mt-hunting
-    ref: main
-    src: https://github.com/CPRP/mt-hunting
 
   - action: download_github
     dest: ./resources/[standalone]/cd_keymaster
@@ -485,11 +470,6 @@ tasks:
     dest: ./resources/[qb]/jim-recycling
     ref: main
     src: https://github.com/CPRP/jim-recycle
-    
-  - action: download_github
-    dest: ./resources/[qb]/qb-constructionjob
-    ref: main
-    src: https://github.com/CPRP/qb-constructionjob
     
   - action: download_github
     dest: ./resources/[qb]/qb-djbooth
