@@ -109,11 +109,6 @@ tasks:
     src: https://github.com/qbcore-framework/prison_map
     
   # Downloading QBCore resources
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-scoreboard
-    ref: main
-    src: https://github.com/qbcore-framework/qb-scoreboard
     
   - action: download_github
     dest: ./resources/[qb]/qb-adminmenu
@@ -574,6 +569,11 @@ tasks:
     dest: ./resources/[weapons]/Custom-Weapons
     ref: main
     src: https://github.com/CPRP/Custom-Weapons
+    
+  - action: download_github
+    dest: ./resources/[qb]/qb-scoreboard
+    ref: main
+    src: https://github.com/CPRP/qb-scoreboard
 
   # Clean up
   - action: remove_path
