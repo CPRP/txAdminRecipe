@@ -115,11 +115,6 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-adminmenu
 
-  - action: download_github
-    dest: ./resources/[qb]/qb-multicharacter
-    ref: main
-    src: https://github.com/qbcore-framework/qb-multicharacter
-
   - action: waste_time # prevent github throttling
     seconds: 10
 
@@ -579,6 +574,11 @@ tasks:
     dest: ./resources/[qb]/qb-tattooshop
     ref: main
     src: https://github.com/CPRP/qb-tattooshop
+    
+  - action: download_github
+    dest: ./resources/[qb]/qb-multicharacter
+    ref: main
+    src: https://github.com/CPRP/qb-multicharacter
 
   # Clean up
   - action: remove_path
