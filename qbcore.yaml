@@ -579,6 +579,16 @@ tasks:
     dest: ./resources/[qb]/qb-multicharacter
     ref: main
     src: https://github.com/CPRP/qb-multicharacter
+    
+  - action: download_github
+    dest: ./resources/[standalone]/mt-karting
+    ref: main
+    src: https://github.com/CPRP/mt-karting
+    
+  - action: download_github
+    dest: ./resources/[standalone]/mt-pilotjob
+    ref: main
+    src: https://github.com/CPRP/mt-pilotjob
 
   # Clean up
   - action: remove_path
