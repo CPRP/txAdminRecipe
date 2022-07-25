@@ -425,11 +425,6 @@ tasks:
     dest: ./resources/[standalone]/cd_keymaster
     ref: main
     src: https://github.com/CPRP/cd_keymaster
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-loading
-    ref: main
-    src: https://github.com/CPRP/qb-loading
     
   - action: download_github
     dest: ./resources/[qb]/don-forklift
@@ -589,6 +584,11 @@ tasks:
     dest: ./resources/[standalone]/mt-pilotjob
     ref: main
     src: https://github.com/CPRP/mt-pilotjob
+    
+  - action: download_github
+    dest: ./resources/[qb]/nc-loadingscreen
+    ref: main
+    src: https://github.com/CPRP/nc-loadingscreen
 
   # Clean up
   - action: remove_path
