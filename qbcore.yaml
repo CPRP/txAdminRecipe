@@ -589,6 +589,11 @@ tasks:
     dest: ./resources/[qb]/nc-loadingscreen
     ref: main
     src: https://github.com/CPRP/nc-loadingscreen
+    
+  - action: download_github
+    dest: ./resources/[qb]/ps-objectspawner
+    ref: main
+    src: https://github.com/CPRP/ps-objectspawner
 
   # Clean up
   - action: remove_path
