@@ -594,6 +594,11 @@ tasks:
     dest: ./resources/[qb]/ps-objectspawner
     ref: main
     src: https://github.com/CPRP/ps-objectspawner
+    
+  - action: download_github
+    dest: ./resources/[standalone]/bcs_questionare
+    ref: main
+    src: https://github.com/CPRP/bcs_questionare
 
   # Clean up
   - action: remove_path
