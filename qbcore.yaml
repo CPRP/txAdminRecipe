@@ -264,11 +264,6 @@ tasks:
     src: https://github.com/CPRP/qb-core
 
   - action: download_github
-    dest: ./resources/[qb]/qb-customs
-    ref: main
-    src: https://github.com/CPRP/qb-customs
-
-  - action: download_github
     dest: ./resources/[qb]/qb-ambulancejob
     ref: main
     src: https://github.com/CPRP/qb-ambulancejob
