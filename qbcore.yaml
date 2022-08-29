@@ -570,6 +570,10 @@ tasks:
     ref: main
     src: https://github.com/CPRP/qb-multicharacter
     
+  # Modified Scripts
+  - action: waste_time # prevent github throttling (every 18)
+    seconds: 10
+    
   - action: download_github
     dest: ./resources/[standalone]/mt-karting
     ref: main
@@ -594,6 +598,11 @@ tasks:
     dest: ./resources/[standalone]/bcs_questionare
     ref: main
     src: https://github.com/CPRP/bcs_questionare
+    
+  - action: download_github
+    dest: ./resources/[standalone]/cr-grandma
+    ref: main
+    src: https://github.com/CPRP/cr-grandma
 
   # Clean up
   - action: remove_path
