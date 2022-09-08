@@ -603,6 +603,11 @@ tasks:
     dest: ./resources/[standalone]/cr-grandma
     ref: main
     src: https://github.com/CPRP/cr-grandma
+    
+  - action: download_github
+    dest: ./resources/[qb]/qb-simplefarming
+    ref: main
+    src: https://github.com/CPRP/qb-simplefarming
 
   # Clean up
   - action: remove_path
