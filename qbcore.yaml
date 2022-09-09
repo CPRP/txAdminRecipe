@@ -398,9 +398,9 @@ tasks:
     src: https://github.com/CPRP/ps-mdt
 
   - action: download_github
-    dest: ./resources/[qb]/aj-inventory
+    dest: ./resources/[qb]/lj-inventory
     ref: main
-    src: https://github.com/CPRP/aj-inventory
+    src: https://github.com/CPRP/lj-inventory
 
   - action: download_github
     dest: ./resources/[qb]/qb-target
