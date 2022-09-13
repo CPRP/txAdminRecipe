@@ -546,9 +546,9 @@ tasks:
     src: https://github.com/CPRP/qb-prison
     
   - action: download_github
-    dest: ./resources/[standalone]/LegacyFuel
+    dest: ./resources/[qb]/ps-fuel
     ref: master
-    src: https://github.com/CPRP/LegacyFuel
+    src: https://github.com/CPRP/ps-fuel
     
   - action: download_github
     dest: ./resources/[weapons]/Custom-Weapons
