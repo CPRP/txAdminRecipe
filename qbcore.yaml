@@ -608,6 +608,11 @@ tasks:
     dest: ./resources/[qb]/qb-simplefarming
     ref: main
     src: https://github.com/CPRP/qb-simplefarming
+    
+  - action: download_github
+    dest: ./resources/[standalone]/JLRP-RadioList
+    ref: master
+    src: https://github.com/CPRP/JLRP-RadioList
 
   # Clean up
   - action: remove_path
