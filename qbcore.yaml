@@ -491,11 +491,6 @@ tasks:
     src: https://github.com/CPRP/qb-weapons
     
   - action: download_github
-    dest: ./resources/[qb]/ps-drugprocessing
-    ref: main
-    src: https://github.com/CPRP/ps-drugprocessing
-    
-  - action: download_github
     dest: ./resources/[qb]/jim-shops
     ref: main
     src: https://github.com/CPRP/jim-shops
