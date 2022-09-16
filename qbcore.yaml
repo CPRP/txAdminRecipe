@@ -417,11 +417,6 @@ tasks:
     src: https://github.com/CPRP/cd_keymaster
     
   - action: download_github
-    dest: ./resources/[qb]/don-forklift
-    ref: main
-    src: https://github.com/CPRP/don-forklift
-    
-  - action: download_github
     dest: ./resources/[qb]/qb-bankrobbery
     ref: main
     src: https://github.com/CPRP/qb-bankrobbery
