@@ -598,6 +598,60 @@ tasks:
     dest: ./resources/[standalone]/JLRP-RadioList
     ref: master
     src: https://github.com/CPRP/JLRP-RadioList
+    
+  - action: download_github
+    dest: ./resources/[standalone]/cd_drawtextui
+    ref: main
+    src: https://github.com/CPRP/cd_drawtextui
+    
+  - action: download_github
+    dest: ./resources/[standalone]/ElectricSkateboard
+    ref: master
+    src: https://github.com/CPRP/ElectricSkateboard
+    
+  - action: download_github
+    dest: ./resources/[standalone]/Badger_Tackle
+    ref: master
+    src: https://github.com/CPRP/Badger_Tackle
+    
+  - action: download_github
+    dest: ./resources/[standalone]/FiveM-Scripts
+    ref: master
+    src: https://github.com/CPRP/FiveM-Scripts
+    
+  - action: download_github
+    dest: ./resources/[standalone]/firescript
+    ref: main
+    src: https://github.com/CPRP/firescript
+    
+  - action: download_github
+    dest: ./resources/[standalone]/HoseLS
+    ref: main
+    src: https://github.com/CPRP/HoseLS
+    
+  - action: download_github
+    dest: ./resources/[standalone]/hostage
+    ref: main
+    src: https://github.com/CPRP/hostage
+    
+  - action: download_github
+    dest: ./resources/[standalone]/luxart-vehicle-control
+    ref: master
+    src: https://github.com/CPRP/luxart-vehicle-control
+    
+  - action: download_github
+    dest: ./resources/[standalone]/nearest-postal
+    ref: master
+    src: https://github.com/CPRP/nearest-postal
+    
+  # Modified Scripts
+  - action: waste_time # prevent github throttling (every 18)
+    seconds: 10
+    
+  - action: download_github
+    dest: ./resources/[standalone]/xsound
+    ref: master
+    src: https://github.com/CPRP/xsound
 
   # Clean up
   - action: remove_path
