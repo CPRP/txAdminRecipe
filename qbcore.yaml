@@ -368,11 +368,6 @@ tasks:
     src: https://github.com/CPRP/qb-traphouse
 
   - action: download_github
-    dest: ./resources/[qb]/qb-truckerjob
-    ref: main
-    src: https://github.com/CPRP/qb-truckerjob
-
-  - action: download_github
     dest: ./resources/[qb]/qb-vehiclekeys
     ref: main
     src: https://github.com/CPRP/qb-vehiclekeys
