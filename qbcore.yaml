@@ -501,21 +501,6 @@ tasks:
     src: https://github.com/CPRP/dpemotes
     
   - action: download_github
-    dest: ./resources/[casino]/doj-casino
-    ref: main
-    src: https://github.com/CPRP/doj-casino
-    
-  - action: download_github
-    dest: ./resources/[casino]/textUi
-    ref: main
-    src: https://github.com/CPRP/textUi
-    
-  - action: download_github
-    dest: ./resources/[casino]/casinoUi
-    ref: main
-    src: https://github.com/CPRP/casinoUi
-    
-  - action: download_github
     dest: ./resources/[standalone]/wk_wars2x
     ref: master
     src: https://github.com/CPRP/wk_wars2x
