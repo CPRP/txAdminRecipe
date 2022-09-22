@@ -637,6 +637,11 @@ tasks:
     dest: ./resources/[standalone]/xsound
     ref: master
     src: https://github.com/CPRP/xsound
+    
+  - action: download_github
+    dest: ./resources/[standalone]/Stretcher-Script
+    ref: master
+    src: https://github.com/CPRP/Stretcher-Script
 
   # Clean up
   - action: remove_path
