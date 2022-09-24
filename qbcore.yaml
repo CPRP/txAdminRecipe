@@ -652,6 +652,11 @@ tasks:
     dest: ./resources/[standalone]/vehcontrol
     ref: master
     src: https://github.com/CPRP/vehcontrol
+    
+  - action: download_github
+    dest: ./resources/[qb]/qb-tsunami
+    ref: main
+    src: https://github.com/CPRP/qb-tsunami
 
   # Clean up
   - action: remove_path
