@@ -326,7 +326,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-radialmenu
     ref: main
-    src: https://github.com/CPRP/qb-radialmenu
+    src: https://github.com/CPRP/qb-radialmenu-npstyle
 
   - action: download_github
     dest: ./resources/[qb]/qb-smallresources
@@ -417,9 +417,9 @@ tasks:
     src: https://github.com/CPRP/qb-bankrobbery
     
   - action: download_github
-    dest: ./resources/[qb]/qb-hud
+    dest: ./resources/[qb]/ps-hud
     ref: main
-    src: https://github.com/CPRP/qb-hud
+    src: https://github.com/CPRP/ps-hud
     
   - action: download_github
     dest: ./resources/[qb]/qb-scooterrental
@@ -642,6 +642,16 @@ tasks:
     dest: ./resources/[qb]/qb-tunerchip
     ref: main
     src: https://github.com/CPRP/qb-tunerchip
+    
+  - action: download_github
+    dest: ./resources/[qb]/ps-buffs
+    ref: main
+    src: https://github.com/CPRP/ps-buffs
+    
+  - action: download_github
+    dest: ./resources/[standalone]/vehcontrol
+    ref: master
+    src: https://github.com/CPRP/vehcontrol
 
   # Clean up
   - action: remove_path
