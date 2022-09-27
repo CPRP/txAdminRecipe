@@ -657,6 +657,11 @@ tasks:
     dest: ./resources/[qb]/qb-tsunami
     ref: main
     src: https://github.com/CPRP/qb-tsunami
+    
+  - action: download_github
+    dest: ./resources/[qb]/jim-jobgarage
+    ref: main
+    src: https://github.com/CPRP/jim-jobgarage
 
   # Clean up
   - action: remove_path
