@@ -427,12 +427,12 @@ tasks:
     src: https://github.com/CPRP/qb-scooterrental
     
   - action: download_github
-    dest: ./resources/[qb]/jim-payments
+    dest: ./resources/[jim]/jim-payments
     ref: main
     src: https://github.com/CPRP/jim-payments
     
   - action: download_github
-    dest: ./resources/[qb]/jim-recycling
+    dest: ./resources/[jim]/jim-recycling
     ref: main
     src: https://github.com/CPRP/jim-recycle
     
@@ -476,7 +476,7 @@ tasks:
     src: https://github.com/CPRP/qb-weapons
     
   - action: download_github
-    dest: ./resources/[qb]/jim-shops
+    dest: ./resources/[jim]/jim-shops
     ref: main
     src: https://github.com/CPRP/jim-shops
     
@@ -501,7 +501,7 @@ tasks:
     src: https://github.com/CPRP/wk_wars2x
     
   - action: download_github
-    dest: ./resources/[qb]/jim-mining
+    dest: ./resources/[jim]/jim-mining
     ref: main
     src: https://github.com/CPRP/jim-mining
     
@@ -659,7 +659,7 @@ tasks:
     src: https://github.com/CPRP/qb-tsunami
     
   - action: download_github
-    dest: ./resources/[qb]/jim-jobgarage
+    dest: ./resources/[jim]/jim-jobgarage
     ref: main
     src: https://github.com/CPRP/jim-jobgarage
 
