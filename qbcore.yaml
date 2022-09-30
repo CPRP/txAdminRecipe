@@ -291,7 +291,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-houserobbery
     ref: main
-    src: https://github.com/CPRP/qb-houserobbery
+    src: https://github.com/JordanBScott/qb-houserobbery
 
   - action: download_github
     dest: ./resources/[qb]/qb-jewelery
