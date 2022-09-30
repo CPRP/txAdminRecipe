@@ -662,6 +662,16 @@ tasks:
     dest: ./resources/[jim]/jim-jobgarage
     ref: main
     src: https://github.com/CPRP/jim-jobgarage
+    
+  - action: download_github
+    dest: ./resources/[qb]/ps-zones
+    ref: main
+    src: https://github.com/CPRP/ps-zones
+    
+  - action: download_github
+    dest: ./resources/[qb]/ps-microphone
+    ref: main
+    src: https://github.com/CPRP/ps-microphone
 
   # Clean up
   - action: remove_path
