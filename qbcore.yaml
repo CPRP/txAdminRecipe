@@ -24,7 +24,7 @@ tasks:
   - action: connect_database
   - action: query_database
     file: ./tmp/qbcore/qbcore.sql
-    
+
 
   # STANDALONE
   - action: download_github
@@ -34,7 +34,7 @@ tasks:
 
   - action: download_file
     path: ./tmp/files/oxmysql.zip
-    url: https://github.com/overextended/oxmysql/releases/download/v2.5.0/oxmysql.zip
+    url: https://github.com/overextended/oxmysql/releases/download/v2.5.1/oxmysql.zip
   - action: unzip
     dest: ./resources/[standalone]
     src: ./tmp/files/oxmysql.zip
@@ -50,12 +50,12 @@ tasks:
     dest: ./resources/[standalone]/bob74_ipl
     ref: master
     src: https://github.com/qbcore-framework/bob74_ipl
-    
+
   - action: download_github
     dest: ./resources/[standalone]/safecracker
     ref: main
     src: https://github.com/qbcore-framework/safecracker
-    
+
   - action: download_github
     dest: ./resources/[standalone]/screenshot-basic
     ref: master
@@ -70,7 +70,7 @@ tasks:
     dest: ./resources/[standalone]/interact-sound
     ref: master
     src: https://github.com/qbcore-framework/interact-sound
-    
+
   - action: download_github
     dest: ./resources/[standalone]/mhacking
     ref: main
@@ -97,17 +97,17 @@ tasks:
     dest: ./resources/[defaultmaps]/hospital_map
     ref: main
     src: https://github.com/qbcore-framework/hospital_map
-    
+
   - action: download_github
     dest: ./resources/[defaultmaps]/dealer_map
     ref: main
     src: https://github.com/qbcore-framework/dealer_map
-    
+
   - action: download_github
     dest: ./resources/[defaultmaps]/[prison_map]
     ref: main
     src: https://github.com/qbcore-framework/prison_map
-    
+
   # Downloading QBCore resources
     
   - action: download_github
@@ -238,12 +238,12 @@ tasks:
     dest: ./resources/[qb]/qb-interior
     ref: main
     src: https://github.com/qbcore-framework/qb-interior
-    
+
   - action: download_github
     dest: ./resources/[qb]/qb-menu
     ref: main
     src: https://github.com/qbcore-framework/qb-menu
-    
+
   - action: download_github
     dest: ./resources/[qb]/qb-input
     ref: main
