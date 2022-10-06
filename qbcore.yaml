@@ -673,6 +673,11 @@ tasks:
     ref: main
     src: https://github.com/CPRP/ps-microphone
 
+  - action: download_github
+    dest: ./resources/[jim]/jim-notepad
+    ref: main
+    src: https://github.com/CPRP/jim-notepad
+    
   # Clean up
   - action: remove_path
     path: ./tmp
