@@ -703,6 +703,11 @@ tasks:
     ref: main
     src: https://github.com/CPRP/qb-parkingmeter
     
+  - action: download_github
+    dest: ./resources/[qb]/qb-zipties
+    ref: main
+    src: https://github.com/CPRP/qb-zipties
+    
   # Clean up
   - action: remove_path
     path: ./tmp
