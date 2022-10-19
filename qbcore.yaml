@@ -683,6 +683,11 @@ tasks:
     ref: main
     src: https://github.com/CPRP/dirk-shn
     
+  - action: download_github
+    dest: ./resources/[qb]/ps-ui
+    ref: main
+    src: https://github.com/CPRP/ps-ui
+    
   # Clean up
   - action: remove_path
     path: ./tmp
