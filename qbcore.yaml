@@ -678,6 +678,11 @@ tasks:
     ref: main
     src: https://github.com/CPRP/jim-notepad
     
+  - action: download_github
+    dest: ./resources/[standalone]/dirk-shn
+    ref: main
+    src: https://github.com/CPRP/dirk-shn
+    
   # Clean up
   - action: remove_path
     path: ./tmp
