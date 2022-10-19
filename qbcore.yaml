@@ -698,6 +698,11 @@ tasks:
     ref: main
     src: https://github.com/CPRP/qb-moonshine
     
+  - action: download_github
+    dest: ./resources/[qb]/qb-parkingmeter
+    ref: main
+    src: https://github.com/CPRP/qb-parkingmeter
+    
   # Clean up
   - action: remove_path
     path: ./tmp
