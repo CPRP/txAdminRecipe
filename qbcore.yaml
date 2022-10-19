@@ -693,6 +693,11 @@ tasks:
     ref: main
     src: https://github.com/CPRP/don-jewelery
     
+  - action: download_github
+    dest: ./resources/[qb]/qb-moonshine
+    ref: main
+    src: https://github.com/CPRP/qb-moonshine
+    
   # Clean up
   - action: remove_path
     path: ./tmp
