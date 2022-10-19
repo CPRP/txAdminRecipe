@@ -688,6 +688,11 @@ tasks:
     ref: main
     src: https://github.com/CPRP/ps-ui
     
+  - action: download_github
+    dest: ./resources/[standalone]/don-jewelery
+    ref: main
+    src: https://github.com/CPRP/don-jewelery
+    
   # Clean up
   - action: remove_path
     path: ./tmp
