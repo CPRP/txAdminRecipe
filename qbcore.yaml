@@ -294,11 +294,6 @@ tasks:
     src: https://github.com/JordanBScott/qb-houserobbery
 
   - action: download_github
-    dest: ./resources/[qb]/qb-jewelery
-    ref: main
-    src: https://github.com/CPRP/qb-jewelery
-
-  - action: download_github
     dest: ./resources/[qb]/qb-management
     ref: main
     src: https://github.com/CPRP/qb-management
@@ -479,11 +474,6 @@ tasks:
     dest: ./resources/[jim]/jim-shops
     ref: main
     src: https://github.com/CPRP/jim-shops
-    
-  - action: download_github
-    dest: ./resources/[qb]/qb-truckrobbery
-    ref: main
-    src: https://github.com/CPRP/qb-truckrobbery
     
   - action: download_github
     dest: ./resources/[standalone]/3dme
