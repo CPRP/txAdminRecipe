@@ -698,6 +698,11 @@ tasks:
     ref: main
     src: https://github.com/CPRP/qb-zipties
     
+  - action: download_github
+    dest: ./resources/[standalone]/Vehicle-Attachment
+    ref: master
+    src: https://github.com/CPRP/Vehicle-Attachment
+    
   # Clean up
   - action: remove_path
     path: ./tmp
