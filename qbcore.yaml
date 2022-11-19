@@ -605,11 +605,6 @@ tasks:
     src: https://github.com/CPRP/hostage
     
   - action: download_github
-    dest: ./resources/[standalone]/luxart-vehicle-control
-    ref: master
-    src: https://github.com/CPRP/luxart-vehicle-control
-    
-  - action: download_github
     dest: ./resources/[standalone]/nearest-postal
     ref: master
     src: https://github.com/CPRP/nearest-postal
