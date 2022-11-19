@@ -575,11 +575,6 @@ tasks:
     src: https://github.com/CPRP/cd_drawtextui
     
   - action: download_github
-    dest: ./resources/[standalone]/ElectricSkateboard
-    ref: master
-    src: https://github.com/CPRP/ElectricSkateboard
-    
-  - action: download_github
     dest: ./resources/[standalone]/Badger_Tackle
     ref: master
     src: https://github.com/CPRP/Badger_Tackle
