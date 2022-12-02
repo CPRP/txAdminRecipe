@@ -698,6 +698,11 @@ tasks:
     ref: main
     src: https://github.com/CPRP/loaf_lib
     
+  - action: download_github
+    dest: ./resources/[qb]/qb-atmheist
+    ref: main
+    src: https://github.com/CPRP/qb-atm-heist
+    
   # Clean up
   - action: remove_path
     path: ./tmp
