@@ -693,6 +693,11 @@ tasks:
     ref: main
     src: https://github.com/CPRP/progressbar
     
+  - action: download_github
+    dest: ./resources/[standalone]/loaf_lib
+    ref: main
+    src: https://github.com/CPRP/loaf_lib
+    
   # Clean up
   - action: remove_path
     path: ./tmp
