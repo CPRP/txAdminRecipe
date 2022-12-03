@@ -506,11 +506,6 @@ tasks:
     src: https://github.com/CPRP/Custom-Weapons
     
   - action: download_github
-    dest: ./resources/[qb]/qb-scoreboard
-    ref: main
-    src: https://github.com/CPRP/qb-scoreboard
-    
-  - action: download_github
     dest: ./resources/[qb]/qb-tattooshop
     ref: main
     src: https://github.com/CPRP/qb-tattooshop
@@ -702,6 +697,11 @@ tasks:
     dest: ./resources/[qb]/qb-atmheist
     ref: main
     src: https://github.com/CPRP/qb-atm-heist
+    
+  - action: download_github
+    dest: ./resources/[qb]/nv_AdvancedScoreboard
+    ref: main
+    src: https://github.com/CPRP/nv_AdvancedScoreboard
     
   # Clean up
   - action: remove_path
