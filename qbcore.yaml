@@ -673,6 +673,10 @@ tasks:
     ref: main
     src: https://github.com/CPRP/qb-parkingmeter
     
+  # Modified Scripts
+  - action: waste_time # prevent github throttling (every 18)
+    seconds: 10
+    
   - action: download_github
     dest: ./resources/[qb]/qb-zipties
     ref: main
@@ -707,6 +711,21 @@ tasks:
     dest: ./resources/[qb]/rs-frontdesk
     ref: main
     src: https://github.com/CPRP/rs-frontdesk
+    
+  - action: download_github
+    dest: ./resources/[standalone]/brazzers-fakeplates
+    ref: main
+    src: https://github.com/CPRP/brazzers-fakeplates
+    
+  - action: download_github
+    dest: ./resources/[standalone]/brazzers-harness
+    ref: main
+    src: https://github.com/CPRP/brazzers-harness
+    
+  - action: download_github
+    dest: ./resources/[standalone]/streetlabel
+    ref: master
+    src: https://github.com/CPRP/streetlabel
     
   # Clean up
   - action: remove_path
