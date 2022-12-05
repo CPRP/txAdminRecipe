@@ -706,7 +706,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/rs-frontdesk
     ref: main
-    src: https://github.com/Redline-Studios/rs-frontdesk
+    src: https://github.com/CPRP/rs-frontdesk
     
   # Clean up
   - action: remove_path
