@@ -703,6 +703,11 @@ tasks:
     ref: main
     src: https://github.com/CPRP/nv_AdvancedScoreboard
     
+  - action: download_github
+    dest: ./resources/[qb]/rs-frontdesk
+    ref: main
+    src: https://github.com/Redline-Studios/rs-frontdesk
+    
   # Clean up
   - action: remove_path
     path: ./tmp
