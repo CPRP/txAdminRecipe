@@ -698,9 +698,9 @@ tasks:
     src: https://github.com/CPRP/loaf_lib
     
   - action: download_github
-    dest: ./resources/[qb]/qb-atmheist
+    dest: ./resources/[qb]/qb-atmrobbery
     ref: main
-    src: https://github.com/CPRP/qb-atm-heist
+    src: https://github.com/CPRP/serrulata-atmrobbery
     
   - action: download_github
     dest: ./resources/[qb]/nv_AdvancedScoreboard
