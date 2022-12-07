@@ -727,6 +727,11 @@ tasks:
     ref: master
     src: https://github.com/CPRP/streetlabel
     
+  - action: download_github
+    dest: ./resources/[qb]/ps-multijob
+    ref: main
+    src: https://github.com/CPRP/ps-multijob
+    
   # Clean up
   - action: remove_path
     path: ./tmp
