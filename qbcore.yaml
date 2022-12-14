@@ -732,6 +732,11 @@ tasks:
     ref: main
     src: https://github.com/CPRP/ps-multijob
     
+  - action: download_github
+    dest: ./resources/[standalone]/rpemotes
+    ref: master
+    src: https://github.com/CPRP/rpemotes
+    
   # Clean up
   - action: remove_path
     path: ./tmp
