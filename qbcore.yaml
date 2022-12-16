@@ -62,11 +62,6 @@ tasks:
     src: https://github.com/citizenfx/screenshot-basic
 
   - action: download_github
-    dest: ./resources/[standalone]/interact-sound
-    ref: master
-    src: https://github.com/qbcore-framework/interact-sound
-
-  - action: download_github
     dest: ./resources/[standalone]/mhacking
     ref: main
     src: https://github.com/qbcore-framework/mhacking
@@ -736,6 +731,11 @@ tasks:
     dest: ./resources/[standalone]/rpemotes
     ref: master
     src: https://github.com/CPRP/rpemotes
+    
+  - action: download_github
+    dest: ./resources/[standalone]/interact-sound
+    ref: master
+    src: https://github.com/CPRP/interact-sound
     
   # Clean up
   - action: remove_path
