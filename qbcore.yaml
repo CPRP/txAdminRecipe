@@ -693,7 +693,7 @@ tasks:
     src: https://github.com/CPRP/loaf_lib
     
   - action: download_github
-    dest: ./resources/[qb]/qb-atmrobbery
+    dest: ./resources/[standalone]/serrulata-atmrobbery
     ref: main
     src: https://github.com/CPRP/serrulata-atmrobbery
     
@@ -736,11 +736,6 @@ tasks:
     dest: ./resources/[standalone]/interact-sound
     ref: master
     src: https://github.com/CPRP/interact-sound
-    
-  - action: download_github
-    dest: ./resources/[standalone]/devyn-backitems
-    ref: main
-    src: https://github.com/CPRP/devyn-backitems
     
   # Clean up
   - action: remove_path
