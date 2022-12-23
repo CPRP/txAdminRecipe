@@ -737,6 +737,11 @@ tasks:
     ref: master
     src: https://github.com/CPRP/interact-sound
     
+  - action: download_github
+    dest: ./resources/[jim]/jim-consumables
+    ref: main
+    src: https://github.com/CPRP/jim-consumables
+    
   # Clean up
   - action: remove_path
     path: ./tmp
