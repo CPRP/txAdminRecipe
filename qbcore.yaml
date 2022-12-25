@@ -732,6 +732,11 @@ tasks:
     ref: main
     src: https://github.com/CPRP/qb-clothing
     
+  - action: download_github
+    dest: ./resources/[standalone]/fd-spikestrips
+    ref: master
+    src: https://github.com/CPRP/fd-spikestrips
+    
   # Clean up
   - action: remove_path
     path: ./tmp
