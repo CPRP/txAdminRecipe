@@ -742,6 +742,11 @@ tasks:
     ref: main
     src: https://github.com/CPRP/ren-businesses
     
+  - action: download_github
+    dest: ./resources/[boii]/boii-moneylaunderer
+    ref: main
+    src: https://github.com/CPRP/boii-moneylaunderer-qb
+    
   # Clean up
   - action: remove_path
     path: ./tmp
