@@ -737,6 +737,11 @@ tasks:
     ref: master
     src: https://github.com/CPRP/fd-spikestrips
     
+  - action: download_github
+    dest: ./resources/[standalone]/ren-businesses
+    ref: main
+    src: https://github.com/CPRP/ren-businesses
+    
   # Clean up
   - action: remove_path
     path: ./tmp
