@@ -119,11 +119,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-atms
 
   - action: download_github
-    dest: ./resources/[qb]/qb-weed
-    ref: main
-    src: https://github.com/qbcore-framework/qb-weed
-
-  - action: download_github
     dest: ./resources/[qb]/qb-lapraces
     ref: main
     src: https://github.com/qbcore-framework/qb-lapraces
@@ -254,19 +249,9 @@ tasks:
     src: https://github.com/CPRP/qb-cityhall
 
   - action: download_github
-    dest: ./resources/[qb]/qb-crypto
-    ref: main
-    src: https://github.com/CPRP/qb-crypto
-
-  - action: download_github
     dest: ./resources/[qb]/qb-doorlock
     ref: main
     src: https://github.com/CPRP/qb-doorlock
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-drugs
-    ref: main
-    src: https://github.com/CPRP/qb-drugs
 
   - action: download_github
     dest: ./resources/[qb]/qb-garages
@@ -642,11 +627,6 @@ tasks:
     dest: ./resources/[standalone]/don-jewelery
     ref: main
     src: https://github.com/CPRP/don-jewelery
-    
-  - action: download_github
-    dest: ./resources/[qb]/qb-moonshine
-    ref: main
-    src: https://github.com/CPRP/qb-moonshine
     
   - action: download_github
     dest: ./resources/[qb]/qb-parkingmeter
