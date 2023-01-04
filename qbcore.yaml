@@ -99,11 +99,6 @@ tasks:
     src: https://github.com/qbcore-framework/prison_map
 
   # Downloading QBCore resources
-    
-  - action: download_github
-    dest: ./resources/[qb]/qb-adminmenu
-    ref: main
-    src: https://github.com/qbcore-framework/qb-adminmenu
 
   - action: waste_time # prevent github throttling
     seconds: 10
@@ -726,6 +721,11 @@ tasks:
     dest: ./resources/[qb]/qb-pawnshop
     ref: main
     src: https://github.com/CPRP/qb-pawnshop
+    
+  - action: download_github
+    dest: ./resources/[qb]/qb-adminmenu
+    ref: main
+    src: https://github.com/CPRP/qb-adminmenu
     
   # Clean up
   - action: remove_path
