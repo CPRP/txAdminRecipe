@@ -170,11 +170,6 @@ tasks:
     dest: ./resources/[qb]/qb-diving
     ref: main
     src: https://github.com/qbcore-framework/qb-diving
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-pawnshop
-    ref: main
-    src: https://github.com/qbcore-framework/qb-pawnshop
     
   - action: download_github
     dest: ./resources/[qb]/qb-busjob
@@ -726,6 +721,11 @@ tasks:
     dest: ./resources/[boii]/boii-moneylaunderer
     ref: main
     src: https://github.com/CPRP/boii-moneylaunderer-qb
+    
+  - action: download_github
+    dest: ./resources/[qb]/qb-pawnshop
+    ref: main
+    src: https://github.com/CPRP/qb-pawnshop
     
   # Clean up
   - action: remove_path
