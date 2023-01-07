@@ -205,11 +205,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-lockpick
 
   - action: download_github
-    dest: ./resources/[qb]/qb-interior
-    ref: main
-    src: https://github.com/qbcore-framework/qb-interior
-
-  - action: download_github
     dest: ./resources/[qb]/qb-menu
     ref: main
     src: https://github.com/qbcore-framework/qb-menu
@@ -247,11 +242,6 @@ tasks:
     dest: ./resources/[qb]/qb-garages
     ref: main
     src: https://github.com/CPRP/qb-garages
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-houserobbery
-    ref: main
-    src: https://github.com/JordanBScott/qb-houserobbery
 
   - action: download_github
     dest: ./resources/[qb]/qb-management
@@ -726,6 +716,16 @@ tasks:
     dest: ./resources/[qb]/qb-adminmenu
     ref: main
     src: https://github.com/CPRP/qb-adminmenu
+    
+  - action: download_github
+    dest: ./resources/[qb]/qb-interior
+    ref: main
+    src: https://github.com/CPRP/qb-interior
+    
+  - action: download_github
+    dest: ./resources/[qb]/qb-houserobbery
+    ref: main
+    src: https://github.com/JordanBScott/qb-houserobbery
     
   # Clean up
   - action: remove_path
