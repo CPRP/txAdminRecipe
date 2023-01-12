@@ -132,11 +132,6 @@ tasks:
     seconds: 10
 
   - action: download_github
-    dest: ./resources/[qb]/qb-weathersync
-    ref: main
-    src: https://github.com/qbcore-framework/qb-weathersync
-
-  - action: download_github
     dest: ./resources/[qb]/qb-apartments
     ref: main
     src: https://github.com/qbcore-framework/qb-apartments
@@ -726,6 +721,11 @@ tasks:
     dest: ./resources/[qb]/qb-houserobbery
     ref: main
     src: https://github.com/JordanBScott/qb-houserobbery
+    
+  - action: download_github
+    dest: ./resources/[qb]/qb-weathersync
+    ref: main
+    src: https://github.com/CPRP/qb-weathersync
     
   # Clean up
   - action: remove_path
