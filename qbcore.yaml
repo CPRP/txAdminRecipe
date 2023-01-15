@@ -727,6 +727,11 @@ tasks:
     ref: main
     src: https://github.com/CPRP/qb-weathersync
     
+  - action: download_github
+    dest: ./resources/[qb]/qb-weaponrepair
+    ref: main
+    src: https://github.com/CPRP/qb-weaponrepair
+    
   # Clean up
   - action: remove_path
     path: ./tmp
