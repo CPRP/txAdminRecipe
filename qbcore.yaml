@@ -47,11 +47,6 @@ tasks:
     src: ./tmp/menuv.zip
 
   - action: download_github
-    dest: ./resources/[standalone]/bob74_ipl
-    ref: master
-    src: https://github.com/qbcore-framework/bob74_ipl
-
-  - action: download_github
     dest: ./resources/[standalone]/safecracker
     ref: main
     src: https://github.com/qbcore-framework/safecracker
@@ -731,6 +726,11 @@ tasks:
     dest: ./resources/[qb]/qb-weaponrepair
     ref: main
     src: https://github.com/CPRP/qb-weaponrepair
+    
+  - action: download_github
+    dest: ./resources/[standalone]/bob74_ipl
+    ref: master
+    src: https://github.com/CPRP/bob74_ipl
     
   # Clean up
   - action: remove_path
