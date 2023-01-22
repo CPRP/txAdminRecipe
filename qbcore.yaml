@@ -490,11 +490,6 @@ tasks:
     src: https://github.com/CPRP/cr-grandma
     
   - action: download_github
-    dest: ./resources/[qb]/qb-simplefarming
-    ref: main
-    src: https://github.com/CPRP/qb-simplefarming
-    
-  - action: download_github
     dest: ./resources/[standalone]/JLRP-RadioList
     ref: master
     src: https://github.com/CPRP/JLRP-RadioList
@@ -641,11 +636,6 @@ tasks:
     dest: ./resources/[qb]/rs-frontdesk
     ref: main
     src: https://github.com/CPRP/rs-frontdesk
-    
-  - action: download_github
-    dest: ./resources/[standalone]/brazzers-fakeplates
-    ref: main
-    src: https://github.com/CPRP/brazzers-fakeplates
     
   - action: download_github
     dest: ./resources/[standalone]/brazzers-harness
