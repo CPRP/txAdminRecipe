@@ -132,11 +132,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-apartments
 
   - action: download_github
-    dest: ./resources/[qb]/qb-scrapyard
-    ref: main
-    src: https://github.com/qbcore-framework/qb-scrapyard
-
-  - action: download_github
     dest: ./resources/[qb]/qb-streetraces
     ref: main
     src: https://github.com/qbcore-framework/qb-streetraces
@@ -155,11 +150,6 @@ tasks:
     dest: ./resources/[qb]/qb-diving
     ref: main
     src: https://github.com/qbcore-framework/qb-diving
-    
-  - action: download_github
-    dest: ./resources/[qb]/qb-busjob
-    ref: main
-    src: https://github.com/qbcore-framework/qb-busjob
 
   - action: waste_time # prevent github throttling
     seconds: 10
@@ -178,11 +168,6 @@ tasks:
     dest: ./resources/[qb]/qb-commandbinding
     ref: main
     src: https://github.com/qbcore-framework/qb-commandbinding
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-hotdogjob
-    ref: main
-    src: https://github.com/qbcore-framework/qb-hotdogjob
 
   - action: download_github
     dest: ./resources/[qb]/qb-garbagejob
@@ -281,11 +266,6 @@ tasks:
     dest: ./resources/[qb]/qb-taxijob
     ref: main
     src: https://github.com/CPRP/qb-taxijob
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-towjob
-    ref: main
-    src: https://github.com/CPRP/qb-towjob
 
   - action: download_github
     dest: ./resources/[qb]/qb-traphouse
@@ -510,11 +490,6 @@ tasks:
     src: https://github.com/CPRP/FiveM-Scripts
     
   - action: download_github
-    dest: ./resources/[standalone]/firescript
-    ref: main
-    src: https://github.com/CPRP/firescript
-    
-  - action: download_github
     dest: ./resources/[standalone]/HoseLS
     ref: main
     src: https://github.com/CPRP/HoseLS
@@ -631,11 +606,6 @@ tasks:
     dest: ./resources/[qb]/nv_AdvancedScoreboard
     ref: main
     src: https://github.com/CPRP/nv_AdvancedScoreboard
-    
-  - action: download_github
-    dest: ./resources/[qb]/rs-frontdesk
-    ref: main
-    src: https://github.com/CPRP/rs-frontdesk
     
   - action: download_github
     dest: ./resources/[standalone]/brazzers-harness
