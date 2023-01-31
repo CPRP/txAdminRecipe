@@ -639,7 +639,7 @@ tasks:
     
   - action: download_github
     dest: ./resources/[standalone]/fd-spikestrips
-    ref: master
+    ref: main
     src: https://github.com/CPRP/fd-spikestrips
     
   - action: download_github
