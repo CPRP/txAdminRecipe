@@ -652,6 +652,10 @@ tasks:
     ref: main
     src: https://github.com/CPRP/boii-moneylaunderer-qb
     
+  # Modified Scripts
+  - action: waste_time # prevent github throttling (every 18)
+    seconds: 10
+    
   - action: download_github
     dest: ./resources/[qb]/qb-pawnshop
     ref: main
