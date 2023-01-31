@@ -376,11 +376,6 @@ tasks:
     seconds: 10
     
   - action: download_github
-    dest: ./resources/[standalone]/apolo_moneywash
-    ref: main
-    src: https://github.com/CPRP/apolo_moneywash-QB
-    
-  - action: download_github
     dest: ./resources/[qb]/qb-weapons
     ref: main
     src: https://github.com/CPRP/qb-weapons
