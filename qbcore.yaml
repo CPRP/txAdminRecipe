@@ -253,11 +253,6 @@ tasks:
     seconds: 10
 
   - action: download_github
-    dest: ./resources/[qb]/qb-spawn
-    ref: main
-    src: https://github.com/CPRP/qb-spawn
-
-  - action: download_github
     dest: ./resources/[qb]/qb-storerobbery
     ref: main
     src: https://github.com/CPRP/qb-storerobbery
@@ -690,6 +685,11 @@ tasks:
     dest: ./resources/[standalone]/bob74_ipl
     ref: master
     src: https://github.com/CPRP/bob74_ipl
+    
+  - action: download_github
+    dest: ./resources/[qb]/qb-spawn
+    ref: main
+    src: https://github.com/CPRP/Omi-Spwan/tree/main/qb-spawn
     
   # Clean up
   - action: remove_path
