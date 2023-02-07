@@ -642,11 +642,6 @@ tasks:
     ref: main
     src: https://github.com/CPRP/ren-businesses
     
-  - action: download_github
-    dest: ./resources/[boii]/boii-moneylaunderer
-    ref: main
-    src: https://github.com/CPRP/boii-moneylaunderer-qb
-    
   # Modified Scripts
   - action: waste_time # prevent github throttling (every 18)
     seconds: 10
