@@ -253,11 +253,6 @@ tasks:
     seconds: 10
 
   - action: download_github
-    dest: ./resources/[qb]/qb-storerobbery
-    ref: main
-    src: https://github.com/CPRP/qb-storerobbery
-
-  - action: download_github
     dest: ./resources/[qb]/qb-taxijob
     ref: main
     src: https://github.com/CPRP/qb-taxijob
@@ -685,6 +680,11 @@ tasks:
     dest: ./resources/[qb]/qb-spawn
     ref: main
     src: https://github.com/CPRP/Omi-Spwan/tree/main/qb-spawn
+    
+  - action: download_github
+    dest: ./resources/[qb]/zf-storerobbery
+    ref: main
+    src: https://github.com/CPRP/zf-storerobbery
     
   # Clean up
   - action: remove_path
