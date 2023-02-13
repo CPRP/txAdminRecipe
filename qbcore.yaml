@@ -689,7 +689,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-clothingbag
     ref: main
-    src: https://github.com/DEV-TILT/qb-clothingbag
+    src: https://github.com/CPRP/qb-clothingbag
     
   # Clean up
   - action: remove_path
