@@ -686,6 +686,11 @@ tasks:
     ref: main
     src: https://github.com/CPRP/zf-storerobbery
     
+  - action: download_github
+    dest: ./resources/[qb]/qb-clothingbag
+    ref: main
+    src: https://github.com/DEV-TILT/qb-clothingbag
+    
   # Clean up
   - action: remove_path
     path: ./tmp
