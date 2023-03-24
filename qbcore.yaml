@@ -642,7 +642,7 @@ tasks:
     
   - action: download_github
     dest: ./resources/[qb]/zf-storerobbery
-    ref: main
+    ref: master
     src: https://github.com/CPRP/zf-storerobbery
     
   - action: download_github
