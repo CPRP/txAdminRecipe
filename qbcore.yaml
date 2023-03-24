@@ -691,11 +691,6 @@ tasks:
     ref: main
     src: https://github.com/CPRP/qb-clothingbag
     
-  - action: download_github
-    dest: ./resources/[qb]/qb-wallet
-    ref: main
-    src: https://github.com/CPRP/qb-wallet
-    
   # Clean up
   - action: remove_path
     path: ./tmp
