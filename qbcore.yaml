@@ -76,22 +76,6 @@ tasks:
     dest: ./resources/[voice]/pma-voice
     ref: main
     src: https://github.com/AvarianKnight/pma-voice
-    
-    # MAPS
-  - action: download_github
-    dest: ./resources/[defaultmaps]/hospital_map
-    ref: main
-    src: https://github.com/qbcore-framework/hospital_map
-
-  - action: download_github
-    dest: ./resources/[defaultmaps]/dealer_map
-    ref: main
-    src: https://github.com/qbcore-framework/dealer_map
-
-  - action: download_github
-    dest: ./resources/[defaultmaps]/[prison_map]
-    ref: main
-    src: https://github.com/qbcore-framework/prison_map
 
   # Downloading QBCore resources
 
@@ -107,11 +91,6 @@ tasks:
     dest: ./resources/[qb]/qb-atms
     ref: main
     src: https://github.com/qbcore-framework/qb-atms
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-lapraces
-    ref: main
-    src: https://github.com/qbcore-framework/qb-lapraces
 
   - action: download_github
     dest: ./resources/[qb]/qb-houses
@@ -130,11 +109,6 @@ tasks:
     dest: ./resources/[qb]/qb-apartments
     ref: main
     src: https://github.com/qbcore-framework/qb-apartments
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-streetraces
-    ref: main
-    src: https://github.com/qbcore-framework/qb-streetraces
 
   - action: download_github
     dest: ./resources/[qb]/qb-skillbar
@@ -236,7 +210,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-policejob
     ref: main
-    src: https://github.com/CPRP/qb-policejob
+    src: https://github.com/CPRP/qb-policejobNEW
 
   - action: download_github
     dest: ./resources/[qb]/qb-radialmenu
@@ -350,11 +324,6 @@ tasks:
     dest: ./resources/[qb]/qb-drivingschool
     ref: main
     src: https://github.com/CPRP/qb-drivingschool
-
-  - action: download_github
-    dest: ./resources/[standalone]/hashx_k9
-    ref: main
-    src: https://github.com/CPRP/hashx_k9
  
   - action: download_github
     dest: ./resources/[qb]/qb-lock
@@ -399,11 +368,6 @@ tasks:
     dest: ./resources/[qb]/qb-prison
     ref: main
     src: https://github.com/CPRP/qb-prison
-    
-  - action: download_github
-    dest: ./resources/[standalone]/LegacyFuel
-    ref: master
-    src: https://github.com/CPRP/LegacyFuel
     
   - action: download_github
     dest: ./resources/[weapons]/Custom-Weapons
@@ -473,11 +437,6 @@ tasks:
     dest: ./resources/[standalone]/FiveM-Scripts
     ref: master
     src: https://github.com/CPRP/FiveM-Scripts
-    
-  - action: download_github
-    dest: ./resources/[standalone]/HoseLS
-    ref: main
-    src: https://github.com/CPRP/HoseLS
     
   - action: download_github
     dest: ./resources/[standalone]/hostage
@@ -690,6 +649,11 @@ tasks:
     dest: ./resources/[qb]/qb-clothingbag
     ref: main
     src: https://github.com/CPRP/qb-clothingbag
+    
+  - action: download_github
+    dest: ./resources/[standalone]/cdn-fuel
+    ref: main
+    src: https://github.com/CPRP/cdn-fuel
     
   # Clean up
   - action: remove_path
