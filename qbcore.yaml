@@ -655,6 +655,11 @@ tasks:
     ref: main
     src: https://github.com/CPRP/cdn-fuel
     
+  - action: download_github
+    dest: ./resources/[qb]/ps-camera
+    ref: main
+    src: https://github.com/CPRP/ps-camera
+    
   # Clean up
   - action: remove_path
     path: ./tmp
