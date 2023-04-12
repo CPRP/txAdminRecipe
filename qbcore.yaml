@@ -641,9 +641,9 @@ tasks:
     src: https://github.com/CPRP/Omi-Spwan/tree/main/qb-spawn
     
   - action: download_github
-    dest: ./resources/[qb]/zf-storerobbery
+    dest: ./resources/[qb]/mz-storerobbery
     ref: master
-    src: https://github.com/CPRP/zf-storerobbery
+    src: https://github.com/CPRP/mz-storerobbery
     
   - action: download_github
     dest: ./resources/[qb]/qb-clothingbag
