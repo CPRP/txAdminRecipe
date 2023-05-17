@@ -637,7 +637,7 @@ tasks:
     
   - action: download_github
     dest: ./resources/[qb]/mz-storerobbery
-    ref: master
+    ref: main
     src: https://github.com/CPRP/mz-storerobbery
     
   - action: download_github
