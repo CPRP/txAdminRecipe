@@ -203,11 +203,6 @@ tasks:
     src: https://github.com/CPRP/qb-mechanicjob
 
   - action: download_github
-    dest: ./resources/[qb]/qb-newsjob
-    ref: main
-    src: https://github.com/CPRP/qb-newsjob
-
-  - action: download_github
     dest: ./resources/[qb]/qb-policejob
     ref: main
     src: https://github.com/CPRP/qb-policejobNEW
